@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imToUrlCh"
+        android:layout_width="143dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading_shape"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="Série d'origine : "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="20dp"
+        android:text="Première Apparition : "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="20dp"
+        android:text="Classement au tiers compétition : "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="20dp"
+        android:text="NomDuPersonnage"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/serie"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="serie"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/firstApp"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginBottom="20dp"
+        android:text="firstapp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/descCharac"
+        android:layout_width="366dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="descch"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/tiersRanking"
+        android:layout_width="138dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:text="tiers"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="smash_layout"
+        android:text="Samsh Ultime" />
+
+</android.widget.RelativeLayout>
